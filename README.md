@@ -3,5 +3,9 @@
 This course is published mainly from the placement point of view and
 contains from basic java to data structures and algorithms.
 <hr>
-# Topics covered
+# Table of Contents
+
 * [Team Members](#team-members)
+
+# <a name="team-members"></a>Team Members
+* "J. Jesus. P. Aguinaga" <admin@listforks.com>
