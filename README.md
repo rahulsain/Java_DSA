@@ -1,7 +1,7 @@
 # Data Structures and Alogorithms(DSA) in JAVA
->This repository contains various programs taught by Anuj Bhaiya at Apni Khaksha Channel.
+>This repository contains various programs taught by ``` Anuj Bhaiya ``` at ``` Apni Khaksha Channel ```.
 >This course is published mainly from the placement point of view and
->contains from basic java to data structures and algorithms.
+>contains from **```basic java```** to **```advanced data structures and algorithms```**.
 
 ## Topics Covered
 * Object Oriented programming
@@ -22,3 +22,10 @@
 * Switch
 * Typecasting
 * While loops
+```diff
+- ok
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
