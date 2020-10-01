@@ -5,7 +5,7 @@ contains from basic java to data structures and algorithms.
 <hr>
 # Table of Contents
 
-* [Team Members](#navya)
+* [Comparables and comparators](#Comparables-comparators)
 
 # <a name="team-members"></a>Team Members
 * "J. Jesus. P. Aguinaga" <admin@listforks.com>
