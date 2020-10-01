@@ -4,4 +4,4 @@ This course is published mainly from the placement point of view and
 contains from basic java to data structures and algorithms.
 <hr>
 # Topics covered
-* [Team Members]
+* [Team Members](#team-members)
