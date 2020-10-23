@@ -15,7 +15,7 @@ public class ShortestPathInAMaze {
 		int rows = a.length-1;
 		int cols = a[0].length-1;
 		
-		int result = shortestPath(a, 1, 0, rows, cols);
+		int result = shortestPath(a, 7, 2, rows, cols);
 		if(result >= 1000000000)
 			System.out.println("No path possible");
 		else
