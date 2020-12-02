@@ -1,4 +1,4 @@
-#enter the values of length and breadth of rectangle from user and check if it a square
+//enter the values of length and breadth of rectangle from user and check if it a square
 import java.util.Scanner;
 class Ans{
   public static void main(String[] args){

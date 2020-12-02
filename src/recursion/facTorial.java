@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class facTorial {
 
     // Complete the factorial function below.
     static int factorial(int n) {

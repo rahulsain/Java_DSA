@@ -1,10 +1,12 @@
+package strings;
+
 import java.util.*;
 /*This java program group all Anagrams together from an array of strings(An anagram is a word or phrase
  *  formed by rearranging the letters of a different word or phrase, typically 
  *  using all the original letters exactly once) and returns a list of Grouped Anagrams as output.*/
-public class Solution {
+public class group_Anagrams1 {
 
-     public static void main(String []args){       
+     public static void main(String []args){
         String string[] = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(groupAnagrams(string));
      }
