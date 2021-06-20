@@ -1,3 +1,5 @@
+package sorting;
+
 // Java program for implementation of Bubble Sort
 class BubbleSort
 {

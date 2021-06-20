@@ -1,4 +1,6 @@
-class Graph {
+package graph;
+
+class graphFrameWork {
 
   // inner class
   // to keep track of edges
@@ -12,7 +14,7 @@ class Graph {
   // array to store all edges
   Edge[] edge;
 
-  Graph(int vertices, int edges) {
+  graphFrameWork(int vertices, int edges) {
     this.vertices = vertices;
     this.edges = edges;
 
@@ -28,10 +30,10 @@ class Graph {
 
   public static void main(String[] args) {
 
-    // create an object of Graph class
+    // create an object of graphFrameWork class
     int noVertices = 5;
     int noEdges = 8;
-    Graph g = new Graph(noVertices, noEdges);
+    graphFrameWork g = new graphFrameWork(noVertices, noEdges);
 
     // create graph
     g.edge[0].src = 1;   // edge 1---2

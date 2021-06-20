@@ -1,5 +1,7 @@
-// Java implementation of recursive Binary Search 
-class BinarySearch { 
+package recursion;
+
+// Java implementation of recursive Binary Search
+class binarysearch {
 	// Returns index of x if it is present in arr[l.. 
 	// r], else return -1 
 	int binarySearch(int arr[], int l, int r, int x) 
@@ -29,8 +31,8 @@ class BinarySearch {
 
 	// Driver method to test above 
 	public static void main(String args[]) 
-	{ 
-		BinarySearch ob = new BinarySearch(); 
+	{
+		binarysearch ob = new binarysearch();
 		int arr[] = { 2, 3, 4, 10, 40 }; 
 		int n = arr.length; 
 		int x = 10; 

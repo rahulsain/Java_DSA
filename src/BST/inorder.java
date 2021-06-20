@@ -1,5 +1,7 @@
 /*when you are compiling your program change the .java class file to inorder because the class declared as public*/
 
+package BST;
+
 import java.io.*;
 import java.util.*;
  public class inorder{

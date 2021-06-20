@@ -20,8 +20,8 @@ public class arrayLinkedList {
 	}
 	
 	public int bfs(int source,int destination) {
-		boolean vis[] = new boolean[adj.length];
-		int parent[] = new int[adj.length];
+		boolean[] vis = new boolean[adj.length];
+		int[] parent = new int[adj.length];
 		
 		Queue<Integer> q = new LinkedList<>();
 		
@@ -54,7 +54,7 @@ public class arrayLinkedList {
 	return distance;
 	}
 	
-	private boolean dfsUtil(int source,int destination,boolean vis[]) {
+	private boolean dfsUtil(int source, int destination, boolean[] vis) {
 		if(source == destination) return true;
 		
 		for(int neighbour: adj[source]) {
@@ -68,14 +68,14 @@ public class arrayLinkedList {
 	}
 	
 	public boolean dfs(int source,int destination) {
-		boolean vis[] = new boolean[adj.length];
+		boolean[] vis = new boolean[adj.length];
 		vis[source] = true;
 		
 		return dfsUtil(source, destination, vis);
 	}
 	
 	public boolean dfsStack(int source,int destination) {
-		boolean vis[] = new boolean[adj.length];
+		boolean[] vis = new boolean[adj.length];
 		vis[source] = true;
 		
 		Stack<Integer> stack = new Stack<>();
@@ -122,10 +122,10 @@ public class arrayLinkedList {
 			
 			int source = sc.nextInt();
 			int destination = sc.nextInt();
-			
-//			int distance = graph.bfs(source, destination);
-//			System.out.println("min distance is " + distance);
-			
+
+			/*	int distance = graph.bfs(source, destination);
+			System.out.println("min distance is " + distance); */
+
 			System.out.println("possible "+ graph.dfsStack(source, destination));
 			
 			sc.close();

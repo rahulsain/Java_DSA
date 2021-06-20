@@ -1,4 +1,6 @@
-class GFG  
+package sorting;
+
+class Timsort
 { 
 
   

@@ -1,3 +1,4 @@
+package BST;
 import java.io.*;
 
 public class BinaryTree{
