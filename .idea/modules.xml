@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.iml" filepath="$PROJECT_DIR$/.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/1.iml" filepath="$PROJECT_DIR$/src/1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_DSA.iml" filepath="$PROJECT_DIR$/Java_DSA.iml" />
     </modules>
   </component>
 </project>
