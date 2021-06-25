@@ -29,9 +29,17 @@ class consonantVowelCheck
         s = s.replaceAll("\\s", "");
 
         for (char ch: s.toCharArray()) {
-            switch (ch) {
-                case 'a', 'e', 'i', 'o', 'u' -> v++;
-                default -> c++;
+            switch (ch){
+                case 'a' :
+                case 'e' :
+                case 'i' :
+                case 'o' :
+                case 'u' :
+                    v++;
+                    break;
+                default:
+                    c++;
+                    break;
             }
         }
 
