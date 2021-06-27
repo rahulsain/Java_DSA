@@ -16,7 +16,6 @@ public class bigArrayscf {
             }
             System.out.println(findAvgDel(arr, n));
         }
-
         sc.close();
     }
 
