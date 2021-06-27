@@ -1,4 +1,4 @@
-package greedy;
+package codeforces.greedy;
 
 import java.util.ArrayList;
 import java.util.Collections;

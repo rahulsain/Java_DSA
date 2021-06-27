@@ -1,4 +1,4 @@
-package codeforces;
+package codeforces.greedy;
 
 import java.util.Scanner;
 
