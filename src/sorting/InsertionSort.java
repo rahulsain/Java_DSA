@@ -1,5 +1,4 @@
-// Space Complexity
-// Time Complexity
+
 public class InsertionSort {  
 public static void main(String[] args) {  
     int[] numArray = {10,6,15,4,1,45};  
