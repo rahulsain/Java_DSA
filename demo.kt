@@ -1,0 +1,1 @@
+class BaseClass : InterfaceOne by Interface1(), InterfaceTwo by Interface2()
