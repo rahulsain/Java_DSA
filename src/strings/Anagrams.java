@@ -1,8 +1,16 @@
+//this is first commit, "with no repetition", where left part is highlight
+//this is second commit, "with no repetition", where left part is highlight and highlighted is not changed
+//this is third commit, "with repetition", where left part is highlight and highlighted is not changed
+//this is fourth commit, "with repetition", where left part is highlight and highlighted is changed
+//this is fifth commit, "without repetition with repetition", where left part is highlight and highlighted is changed
+
+
 package strings;
 
 import java.util.Scanner;
 
 public class Anagrams {
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -26,13 +34,13 @@ public class Anagrams {
 //					if(!isAnagram) break;
 //				}
 //			}
-        int a[] = new int[256];
+        int[] a = new int[256];
         for(char c: arrayOne.toCharArray()) {
-            int index = (int) c;
+            int index = c;
             a[index]++;
         }
         for(char c: arrayTwo.toCharArray()) {
-            int index = (int) c;
+            int index = c;
             a[index]--;
         }
 
