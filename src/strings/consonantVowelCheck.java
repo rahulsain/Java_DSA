@@ -1,11 +1,15 @@
+//this is first commit, "with no repetition", where left part is highlight
+//this is second commit, "with no repetition", where left part is highlight and highlighted is not changed
+//this is third commit, "with repetition", where left part is highlight and highlighted is not changed
+//this is fourth commit, "with repetition", where left part is highlight and highlighted is changed
+
 package strings;
 
 import java.util.Scanner;
-class consonantVowelCheck
-{
 
-    public static void main (String[] args)
-    {
+class consonantVowelCheck {
+
+    public static void main(String[] args) {
         //taking input using class Scanner
         Scanner sc = new Scanner(System.in);
 
@@ -21,8 +25,8 @@ class consonantVowelCheck
 
         }
     }
-    public static void checkString(String s)
-    {
+
+    public static void checkString(String s) {
         int v=0;
         int c=0;
 
