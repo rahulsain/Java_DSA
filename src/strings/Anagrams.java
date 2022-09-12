@@ -1,9 +1,8 @@
-//this is first commit, "with no repetition", where left part is highlight
-//this is second commit, "with no repetition", where left part is highlight and highlighted is not changed
-//this is third commit, "with repetition", where left part is highlight and highlighted is not changed
-//this is fourth commit, "with repetition", where left part is highlight and highlighted is changed
-//this is fifth commit, "without repetition with repetition", where left part is highlight and highlighted is changed
-
+//this is first commit, "with no repetition", where left part is highlight and highlighted is not changed
+//this is second commit, "with repetition", where left part is highlight and highlighted is not changed
+//this is third commit, "with repetition", where left part is highlight and highlighted is changed
+//this is fourth commit, "without repetition with repetition", where left part is highlight and highlighted is changed
+//this is fifth commit, "without repetition with changes 12oi203dsjfljdfs repetition", where left part is highlight and highlighted is changed drastically
 
 package strings;
 
